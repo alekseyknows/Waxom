@@ -21,7 +21,7 @@ body{
     flex-direction: column;
     align-items: center;
 
-    background-image: url(img/backgrounds/main.png); // deleted / before img
+    background-image: url(../img/backgrounds/main.png);
     background-repeat: no-repeat;
     background-position: center center;
 
@@ -567,7 +567,7 @@ body{
 .video {
 
     margin-top: 81px;
-    background: url(/img/backgrounds/video.png) center center no-repeat;
+    background: url(../img/backgrounds/video.png) center center no-repeat;
 
     display: flex;
     flex-direction: column;
@@ -674,7 +674,7 @@ body{
         color: rgb(140, 140, 140);
         line-height: 2;
 
-        background: url(/img/icons/mobile/list-icon.png) left 5px no-repeat;
+        background: url(../img/icons/mobile/list-icon.png) left 5px no-repeat;
 
         padding-left: 50px;
     }
@@ -938,7 +938,7 @@ body{
 
         span{
             padding-right: 15px;
-            background: url(/img/icons/posts/arrow.png) right no-repeat;
+            background: url(../img/icons/posts/arrow.png) right no-repeat;
         }
     }
 
@@ -958,7 +958,7 @@ body{
 // - - - - - - - - - - SPONSORS - - - - - - - - - -
 .sponsors {
 
-    background: url(/img/backgrounds/sponsors.png) center center no-repeat;
+    background: url(../img/backgrounds/sponsors.png) center center no-repeat;
 
     &__row {
 
@@ -1061,7 +1061,7 @@ body{
 
             span{
                 padding-right: 15px;
-                background: url(/img/icons/bottom/arrow.png) right no-repeat;
+                background: url(../img/icons/bottom/arrow.png) right no-repeat;
             }
         }
     }
