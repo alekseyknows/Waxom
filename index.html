@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" media='screen and (min-width: 768px)' href="css/styles.css">
+    <!--TODO (min-width: 768) and (max-width: 1199px)-->
+    <link rel="stylesheet" media='screen and (max-width: 767px)' href="css/phone.css">
     <title>Waxom</title>
 </head>
 
@@ -15,6 +17,9 @@
             <header class="main__header">
                 <div class="header__logo">
                     <a href="#"><img src="img/logos/main/Logo.png" alt="Logo"></a>
+                </div>
+                <div class="header__burger">
+                    <span></span>
                 </div>
                 <div class="header__menu">
                     <nav class="menu__navigation">
@@ -134,12 +139,14 @@
             </div>
         </div>
         <div class="screenshots">
-            <div class="screenshots__title">
-                Waxom is Realization of your Ideas.
-            </div>
-            <div class="screenshots__text">
-                Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
-                processus dynamicus, qui sequitur mutationem consuetudium.
+            <div class="container">
+                <div class="screenshots__title">
+                    Waxom is Realization of your Ideas.
+                </div>
+                <div class="screenshots__text">
+                    Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
+                    processus dynamicus, qui sequitur mutationem consuetudium.
+                </div>
             </div>
             <div class="screenshots__pictures">
                 <img src="img/pictures/screenshots/browsers.png" alt="" class="screenshots__picture">
@@ -190,7 +197,7 @@
                         </div>
                     </div>
                     <div class="projects__cards">
-                        <div class="cards__item cards__phone">
+                        <div class="cards__phone cards__item">
                             <div class="cards__image-wrapper">
                                 <img src="img/pictures/projects/phone.png" class="cards__image" alt="">
                             </div>
@@ -244,7 +251,6 @@
                                 <div class="cards__category">Photography, Holiday</div>
                             </div>
                         </div>
-
                     </div>
                     <div class="projects__button-wrapper">
                         <a href="#" class="projects__button button">
@@ -255,43 +261,55 @@
             </div>
         </div>
         <div class="video">
-            <div class="video__button">
-                <div class="video__button-wrapper">
-                    <img src="img/icons/video/button.png" alt="" class="video__button-item">
+            <div class="container">
+                <div class="video__button">
+                    <div class="video__button-wrapper">
+                        <img src="img/icons/video/button.png" alt="" class="video__button-item">
+                    </div>
                 </div>
-            </div>
-            <div class="video__title">
-                Waxom Video Presentation
-            </div>
-            <div class="video__text">
-                Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem
-                consuetudium.
-            </div>
-            <div class="video__time">
-                <img src="img/icons/video/time.png" alt="" class="video__time-item">
+                <div class="video__title">
+                    Waxom Video Presentation
+                </div>
+                <div class="video__text">
+                    Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur
+                    mutationem
+                    consuetudium.
+                </div>
+                <div class="video__time">
+                    <img src="img/icons/video/time.png" alt="" class="video__time-item">
+                </div>
             </div>
         </div>
         <div class="mobile">
-            <div class="mobile__image-wrapper">
-                <img src="img/pictures/mobile/phone-in-hand.png" alt="" class="mobile__image">
-            </div>
-            <div class="mobile__content">
-                <div class="mobile__title">
-                    Excellent for Mobile Devices.
-                </div>
-                <div class="mobile__text">
-                    Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-                    ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt
-                    saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
-                </div>
-                <div class="mobile__list-wrapper">
-                    <ul class="mobile__list">
-                        <li class="mobile__list-item">Nam liber tempor cum soluta nobis eleifend option;</li>
-                        <li class="mobile__list-item">Option congue nihil imperdiet doming id quod mazim placerat facer;
-                        </li>
-                        <li class="mobile__list-item">Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
-                        <li class="mobile__list-item">Investigationes demonstraverunt lectores</li>
-                    </ul>
+            <div class="container">
+                <div class="mobile__column">
+                    <div class="mobile__image-wrapper">
+                        <img src="img/pictures/mobile/phone-in-hand.png" alt="" class="mobile__image">
+                    </div>
+                    <div class="mobile__content">
+                        <div class="mobile__title">
+                            Excellent for Mobile Devices.
+                        </div>
+                        <div class="mobile__text">
+                            Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                            aliquip
+                            ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii
+                            legunt
+                            saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in
+                            futurum.
+                        </div>
+                        <div class="mobile__list-wrapper">
+                            <ul class="mobile__list">
+                                <li class="mobile__list-item">Nam liber tempor cum soluta nobis eleifend option;</li>
+                                <li class="mobile__list-item">Option congue nihil imperdiet doming id quod mazim
+                                    placerat facer;
+                                </li>
+                                <li class="mobile__list-item">Eodem modo typi, qui nunc nobis videntur parum futurum;
+                                </li>
+                                <li class="mobile__list-item">Investigationes demonstraverunt lectores</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -442,18 +460,20 @@
             </div>
         </div>
         <div class="sponsors">
-            <div class="sponsors__row">
-                <div class="sponsors__item">
-                    <img src="img/pictures/sponsors/barber.png" alt="">
-                </div>
-                <div class="sponsors__item">
-                    <img src="img/pictures/sponsors/delicious.png" alt="">
-                </div>
-                <div class="sponsors__item">
-                    <img src="img/pictures/sponsors/designers.png" alt="">
-                </div>
-                <div class="sponsors__item">
-                    <img src="img/pictures/sponsors/royal.png" alt="">
+            <div class="container">
+                <div class="sponsors__row">
+                    <div class="sponsors__item">
+                        <img src="img/pictures/sponsors/barber.png" alt="">
+                    </div>
+                    <div class="sponsors__item">
+                        <img src="img/pictures/sponsors/delicious.png" alt="">
+                    </div>
+                    <div class="sponsors__item">
+                        <img src="img/pictures/sponsors/designers.png" alt="">
+                    </div>
+                    <div class="sponsors__item">
+                        <img src="img/pictures/sponsors/royal.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -509,7 +529,8 @@
                         </div>
                         <div class="bottom__twitter-post bottom__brief">
                             <div class="bottom__twitter-text">
-                                <span class="mentioning">@waxom</span> Cum soluta nobis eleifend option congue nihil imperdiet doming
+                                <span class="mentioning">@waxom</span> Cum soluta nobis eleifend option congue nihil
+                                imperdiet doming
                             </div>
                             <div class="bottom__twitter-time">
                                 3 mins ago
@@ -517,7 +538,8 @@
                         </div>
                         <div class="bottom__twitter-post bottom__brief">
                             <div class="bottom__twitter-text">
-                                Mirum est <span class="mentioning">#envato</span> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum
+                                Mirum est <span class="mentioning">#envato</span> notare quam littera gothica, quam nunc
+                                putamus parum anteposuerit litterarum
                             </div>
                             <div class="bottom__twitter-time">
                                 5 hours ago
@@ -525,7 +547,8 @@
                         </div>
                         <div class="bottom__twitter-post bottom__brief">
                             <div class="bottom__twitter-text">
-                                Soluta nobis option <a href="https://google.com" target="_blank"><span class="shortlink">bit.ly/1Hniso7</span></a>
+                                Soluta nobis option <a href="https://google.com" target="_blank"><span
+                                        class="shortlink">bit.ly/1Hniso7</span></a>
                             </div>
                             <div class="bottom__twitter-time">
                                 20 days ago
@@ -583,6 +606,8 @@
             </div>
         </div>
     </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
