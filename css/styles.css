@@ -301,8 +301,10 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 800px; }
   .screenshots__pictures {
     padding-top: 34px;
-    max-width: 1230px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    text-align: center; }
+  .screenshots__picture {
+    max-width: 100%; }
 
 .purchase {
   background-image: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
@@ -407,10 +409,6 @@ h1, h2, h3, h4, h5, h6 {
 .cards__item {
   background-color: #fbfaf8;
   margin: 15px; }
-  .cards__item:hover {
-    color: red;
-    font-weight: 800;
-    cursor: pointer; }
 
 .cards__image-wrapper {
   position: relative; }
@@ -714,6 +712,8 @@ h1, h2, h3, h4, h5, h6 {
       text-align: center;
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px; }
+    .posts__item-image img {
+      width: 100%; }
   .posts__item-title {
     font-size: 20px;
     font-family: "Raleway", sans-serif;

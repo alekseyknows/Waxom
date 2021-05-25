@@ -10,9 +10,7 @@ body{
     }
 }
 
-.wrapper {
-    
-}
+.wrapper {}
 
 .container{
     margin: 0 auto;
@@ -27,7 +25,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 
     &__header {
         position: fixed;
@@ -157,7 +154,6 @@ body{
         transition: all 0.3s ease 0s;
 
         overflow: auto;
-        
 
         &.active{
             top: 80px;
@@ -172,9 +168,6 @@ body{
     }
 }
 .menu {
-
-    &__navigation {
-    }
 
     &__list {
         margin-bottom: 10px;
@@ -274,8 +267,6 @@ body{
     padding: 20px 38px;
 }
 
-
-// - - - - - - - - - - OPTIONS - - - - - - - - - -
 .options {
 
     background: #ffffff;
@@ -291,9 +282,6 @@ body{
         align-items: center;
         max-width: 280px;
         text-align: center;
-    }
-
-    &__picture{
     }
 
     &__title{
@@ -324,10 +312,6 @@ body{
 }
 
 .development {
-    
-
-    &__picture {
-    }
 
     &__title {
         color: #c7b299;
@@ -341,9 +325,7 @@ body{
         border-color: #c7b299;
     }
 }
-// - - - - - - - - - - /OPTIONS - - - - - - - - - -
 
-// - - - - - - - - - - SCREENSHOTS - - - - - - - - - -
 .screenshots {
 
     background-color: #fbfaf8;
@@ -378,9 +360,7 @@ body{
         }
     }
 }
-// - - - - - - - - - - /SCREENSHOTS - - - - - - - - - -
 
-// - - - - - - - - - - PURCHASE - - - - - - - - - -
 .purchase {
     background-image: -moz-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
     background-image: -webkit-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
@@ -428,9 +408,7 @@ body{
 .purchase__button-wrapper{
     padding: 25px 0px;
 }
-// - - - - - - - - - - /PURCHASE - - - - - - - - - -
 
-// - - - - - - - - - - PROJECTS - - - - - - - - - -
 .projects {
 
     background-color: #ffffff;
@@ -502,7 +480,6 @@ body{
         justify-content: center;
         flex-wrap: wrap;
     }
-    
 
     &__button-wrapper {
         margin: 50px 0px;
@@ -510,7 +487,6 @@ body{
 }
 
 .cards {
-
     
     &__item {
         background-color: #fbfaf8;
@@ -561,22 +537,8 @@ body{
         line-height: 31px;
         font-weight: 300;
     }
-
-    &__phone {}
-
-    &__mountain {}
-
-    &__page {}
-
-    &__birds {}
-
-    &__book {}
-
-    &__cliff {}
 }
-// - - - - - - - - - - /PROJECTS - - - - - - - - - -
 
-// - - - - - - - - - - VIDEO - - - - - - - - - -
 .video {
 
     background: url(../img/backgrounds/video.png) center center no-repeat;
@@ -598,10 +560,6 @@ body{
         @media screen and (orientation: landscape) {
             padding-top: 170px;
         }
-    }
-
-    &__button-item {
-        
     }
 
     &__title {
@@ -631,13 +589,8 @@ body{
         padding-bottom: 50px;
         text-align: center;
     }
-
-    &__time-item {
-    }
 }
-// - - - - - - - - - - /VIDEO - - - - - - - - - -
 
-// - - - - - - - - - - MOBILE - - - - - - - - - -
 .mobile {
     background-color: #fbfaf8;
     
@@ -688,9 +641,6 @@ body{
         padding-top: 30px;
     }
 
-    &__list {
-    }
-
     &__list-item {
         font-size: 16px;
         font-family: "Montserrat", sans-serif;
@@ -702,9 +652,7 @@ body{
         padding-left: 50px;
     }
 }
-// - - - - - - - - - - /MOBILE - - - - - - - - - -
 
-// - - - - - - - - - - FIGURES - - - - - - - - - -
 .figures {
     background-image: -moz-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
     background-image: -webkit-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
@@ -730,9 +678,6 @@ body{
         min-width: 150px;
         align-items: center;
         white-space: nowrap;
-    }
-
-    &__image-wrapper {
     }
 
     &__image {
@@ -767,25 +712,8 @@ body{
         margin-bottom: 60px;
         margin-top: 25px;
     }
-
-    &__clients {
-    }
-
-    &__coffee {
-    }
-
-    &__posts {
-    }
-
-    &__likes {
-    }
-
-    &__launched {
-    }
 }
-// - - - - - - - - - - /FIGURES - - - - - - - - - -
 
-// - - - - - - - - - - POSTS - - - - - - - - - -
 .posts {
 
     background-color: #ffffff;
@@ -827,7 +755,6 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
     }
 
     &__item {
@@ -988,9 +915,7 @@ body{
         padding-bottom: 50px;
     }
 }
-// - - - - - - - - - - /POSTS - - - - - - - - - -
 
-// - - - - - - - - - - SPONSORS - - - - - - - - - -
 .sponsors {
 
     background: url(../img/backgrounds/sponsors.png) center center no-repeat;
@@ -1019,9 +944,7 @@ body{
         }
     }
 }
-// - - - - - - - - - - /SPONSORS - - - - - - - - - -
 
-// - - - - - - - - - - BOTTOM - - - - - - - - - -
 .bottom {
     background-color: #191919;
 
@@ -1032,7 +955,6 @@ body{
         align-items: center;
 
         padding: 40px 30px 60px;
-        
     }
 
     &__brief {
@@ -1081,9 +1003,6 @@ body{
     }
 
     &__general {
-
-        &-logo {
-        }
     
         &-text {
             padding-top: 23px;
@@ -1110,9 +1029,6 @@ body{
 
     &__recent {
 
-        &-title {
-        }
-
         &-date {
             font-size: 12px;
             font-family: "Montserrat", sans-serif;
@@ -1136,15 +1052,6 @@ body{
     &__twitter {
 
         line-height: 1.6;
-
-        &-title {
-        }
-
-        &-post {
-        }
-    
-        &-text {
-        }
     
         &-time {
             font-size: 12px;
@@ -1184,9 +1091,7 @@ body{
 .shortlink {
     color: #959595;
 }
-// - - - - - - - - - - /BOTTOM - - - - - - - - - -
 
-// - - - - - - - - - - FOOTER - - - - - - - - - -
 .footer {
 
     background-color: #111111;
@@ -1255,4 +1160,3 @@ body{
         }
     }
 }
-// - - - - - - - - - - /FOOTER - - - - - - - - - -

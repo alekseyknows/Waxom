@@ -4,11 +4,9 @@
 
 @import "nullstyle.scss";
 
-body{
-}
+body{}
 
-.wrapper {
-}
+.wrapper {}
 
 .container{
     max-width: 1230px;
@@ -57,9 +55,6 @@ body{
     }
 }
 .header {
-    
-
-    &__logo {}
 
     &.header__burger{
         display: none;
@@ -67,7 +62,7 @@ body{
 
     &__menu {
         display: flex;
-        margin-left: 218px; // ????
+        margin-left: 218px;
     }
 }
 .menu {
@@ -174,7 +169,6 @@ body{
     padding: 15px 38px;
 }
 
-// - - - - - - - - - - OPTIONS - - - - - - - - - -
 .options {
 
     background: #ffffff;
@@ -182,19 +176,6 @@ body{
     justify-content: center;
 
     margin-top: 80px;
-
-    &__design {
-    }
-
-    &__development {
-        
-    }
-
-    &__customization {
-    }
-
-    &__marketing {
-    }
 
     &__item{
         display: flex;
@@ -206,9 +187,6 @@ body{
         &:not(:nth-child(1)){
             margin-left: 20px;
         }
-    }
-
-    &__picture{
     }
 
     &__title{
@@ -237,25 +215,8 @@ body{
         margin-top: 25px;
     }
 }
-.design {
 
-    &__picture {
-    }
-
-    &__title {
-    }
-
-    &__text {
-    }
-
-    &__line {
-    }
-}
 .development {
-    
-
-    &__picture {
-    }
 
     &__title {
         color: #c7b299;
@@ -269,37 +230,7 @@ body{
         border-color: #c7b299;
     }
 }
-.customization {
 
-    &__picture {
-    }
-
-    &__title {
-    }
-
-    &__text {
-    }
-
-    &__line {
-    }
-}
-.marketing {
-
-    &__picture {
-    }
-
-    &__title {
-    }
-
-    &__text {
-    }
-
-    &__line {
-    }
-}
-// - - - - - - - - - - /OPTIONS - - - - - - - - - -
-
-// - - - - - - - - - - SCREENSHOTS - - - - - - - - - -
 .screenshots {
 
     background-color: #fbfaf8;
@@ -329,26 +260,15 @@ body{
 
     &__pictures {
         padding-top: 34px;
-        max-width: 1230px;
         margin: 0 auto;
+        text-align: center;
     }
 
     &__picture {
-        //max-width: 100%;
-    }
-
-    &__picture-front {
-    }
-
-    &__picture-back-left {
-    }
-
-    &__picture-back-right {
+        max-width: 100%;
     }
 }
-// - - - - - - - - - - /SCREENSHOTS - - - - - - - - - -
 
-// - - - - - - - - - - PURCHASE - - - - - - - - - -
 .purchase {
     background-image: -moz-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
     background-image: -webkit-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
@@ -358,9 +278,6 @@ body{
         display: flex;
         justify-content: space-between;
         padding: 43px 32px 48px;
-    }
-
-    &__content {
     }
 
     &__title {
@@ -394,9 +311,7 @@ body{
 .purchase__button-wrapper{
     padding-top: 6px;
 }
-// - - - - - - - - - - /PURCHASE - - - - - - - - - -
 
-// - - - - - - - - - - PROJECTS - - - - - - - - - -
 .projects {
 
     background-color: #ffffff;
@@ -476,37 +391,12 @@ body{
         padding: 13px 44px;
     }
 }
-.container {
-}
-.categories {
 
-    &__all {
-        
-    }
-
-    &__web-design {
-    }
-
-    &__mobile-app {
-    }
-
-    &__illustration {
-    }
-
-    &__photography {
-    }
-}
 .cards {
 
     &__item {
         background-color: #fbfaf8;
         margin: 15px;
-
-        &:hover{ // не работает ожидаемым образом
-            color: red;
-            font-weight: 800;
-            cursor: pointer;
-        }
     }
 
     &__image {
@@ -528,8 +418,6 @@ body{
         }
     }
 
-    
-
     &__content {
         padding: 26px 0px 19px 29px;
     }
@@ -549,29 +437,8 @@ body{
         line-height: 31px;
         font-weight: 300;
     }
-
-    &__phone {
-    }
-
-    &__mountain {
-    }
-
-    &__page {
-        
-    }
-
-    &__birds {
-    }
-
-    &__book {
-    }
-
-    &__cliff {
-    }
 }
-// - - - - - - - - - - /PROJECTS - - - - - - - - - -
 
-// - - - - - - - - - - VIDEO - - - - - - - - - -
 .video {
 
     margin-top: 81px;
@@ -588,9 +455,6 @@ body{
 
     &__button-wrapper {
         padding-top: 210px;
-    }
-
-    &__button-item {
     }
 
     &__title {
@@ -620,18 +484,11 @@ body{
         padding-bottom: 203px;
         text-align: center;
     }
-
-    &__time-item {
-    }
 }
-// - - - - - - - - - - /VIDEO - - - - - - - - - -
 
-// - - - - - - - - - - MOBILE - - - - - - - - - -
 .mobile {
     background-color: #fbfaf8;
-    
 
-    
     padding-top: 79px;
 
     &__column{
@@ -642,9 +499,6 @@ body{
 
     &__image-wrapper {
         padding-left: 45px;
-    }
-
-    &__image {
     }
 
     &__content {
@@ -680,9 +534,6 @@ body{
         margin-left: 50px;
     }
 
-    &__list {
-    }
-
     &__list-item {
         font-size: 16px;
         font-family: "Montserrat", sans-serif;
@@ -694,9 +545,7 @@ body{
         padding-left: 50px;
     }
 }
-// - - - - - - - - - - /MOBILE - - - - - - - - - -
 
-// - - - - - - - - - - FIGURES - - - - - - - - - -
 .figures {
     background-image: -moz-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
     background-image: -webkit-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
@@ -716,12 +565,6 @@ body{
         flex: 1 1 170px;
         min-width: 170px;
         align-items: center;
-    }
-
-    &__image-wrapper {
-    }
-
-    &__image {
     }
 
     &__number {
@@ -751,25 +594,8 @@ body{
         margin-bottom: 60px;
         margin-top: 25px;
     }
-
-    &__clients {
-    }
-
-    &__coffee {
-    }
-
-    &__posts {
-    }
-
-    &__likes {
-    }
-
-    &__launched {
-    }
 }
-// - - - - - - - - - - /FIGURES - - - - - - - - - -
 
-// - - - - - - - - - - POSTS - - - - - - - - - -
 .posts {
 
     background-color: #ffffff;
@@ -810,8 +636,6 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-
-        
     }
 
     &__item {
@@ -841,8 +665,6 @@ body{
                     padding-bottom: 2px;
                 }
             }
-
-            
         }
 
         &:hover{
@@ -920,6 +742,10 @@ body{
             border-bottom-left-radius: 5px;
             border-bottom-right-radius: 5px;
         }
+
+        & img{
+            width: 100%;
+        }
     }
 
     &__item-title {
@@ -968,9 +794,7 @@ body{
         padding-bottom: 80px;
     }
 }
-// - - - - - - - - - - /POSTS - - - - - - - - - -
 
-// - - - - - - - - - - SPONSORS - - - - - - - - - -
 .sponsors {
 
     background: url(../img/backgrounds/sponsors.png) center center no-repeat;
@@ -987,18 +811,10 @@ body{
             padding-left: 90px;
         }
     }
-
-    &__item {
-    }
 }
-// - - - - - - - - - - /SPONSORS - - - - - - - - - -
 
-// - - - - - - - - - - BOTTOM - - - - - - - - - -
 .bottom {
     background-color: #191919;
-
-    .container {
-    }
 
     &__row {
 
@@ -1006,7 +822,6 @@ body{
         justify-content: space-between;
 
         padding: 80px 30px 60px;
-        
     }
 
     &__brief {
@@ -1054,9 +869,6 @@ body{
     }
 
     &__general {
-
-        &-logo {
-        }
     
         &-text {
             padding-top: 23px;
@@ -1081,12 +893,7 @@ body{
         }
     }
 
-    
-
     &__recent {
-
-        &-title {
-        }
 
         &-date {
             font-size: 12px;
@@ -1111,15 +918,6 @@ body{
     &__twitter {
 
         line-height: 1.6;
-
-        &-title {
-        }
-
-        &-post {
-        }
-    
-        &-text {
-        }
     
         &-time {
             font-size: 12px;
@@ -1157,9 +955,7 @@ body{
 .shortlink {
     color: #959595;
 }
-// - - - - - - - - - - /BOTTOM - - - - - - - - - -
 
-// - - - - - - - - - - FOOTER - - - - - - - - - -
 .footer {
 
     background-color: #111111;
@@ -1212,18 +1008,6 @@ body{
             }
         }
     
-        &__left-copywright {
-        }
-    
-        &__left-privacy {
-        }
-    
-        &__left-faq {
-        }
-    
-        &__left-support {
-        }
-    
         &__right {
             display: flex;
 
@@ -1246,12 +1030,5 @@ body{
                 }
             }
         }
-    
-        &__right-designed {
-        }
-    
-        &__right-only {
-        }
     }
 }
-// - - - - - - - - - - /FOOTER - - - - - - - - - -
